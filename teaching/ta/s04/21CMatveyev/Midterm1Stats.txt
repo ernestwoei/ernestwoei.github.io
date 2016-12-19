@@ -1,0 +1,12 @@
+Section	1	2	3	4	5
+Average	104.97	108.07	117.31	100.5	121.5
+Median	101.5	109	116	95.5	137.5
+Min	34	61	45	32	68
+Max	161	180	183	185	152
+Count	38	13	19	24	8
+					
+Class Average		107.911764706			
+Class Median		106.5			
+Class Max		185			
+Class Min		32			
+# of Students		102			

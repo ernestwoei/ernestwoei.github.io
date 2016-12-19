@@ -1,0 +1,7 @@
+		Section 1	Section 2	Section 3	Section 4	Section 5	Class	
+Average		147.44		146.08		159.36		143		161.71		149.58
+Median		152.5		139		155		135		169		149
+High		231		261		286		250		219		286
+Low		71		87		37		0		96		0
+Count		36		12		19		23		7		97
+Deviation	46.36		46.90		59.46		68.23		35.99		54.79

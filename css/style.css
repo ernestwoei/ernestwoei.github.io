@@ -1,0 +1,132 @@
+body {
+    
+	background-color:#2A6095;
+    background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
+	color: #525252;
+    font: 13px/18px "Verdana",sans-serif;
+    /*font: 13px/18px "Snell Roundhand", cursive;*/
+}
+#wrapper {
+	background-color:#EEE4CE;
+	background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
+}
+
+a {
+    color: #2A6095;
+    outline: medium none;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+    padding: 10px 0 10px;
+    text-transform: none;
+   margin:10px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+   margin:10px;
+}
+
+p {
+    padding-bottom: 18px;
+    margin: 10px;
+}
+
+.imgright {
+	    float: right;
+    height: auto;
+    margin: 0 0px 10px 10px;
+	border:10px solid #E1CEA6;
+}
+
+.imgleft {
+	    float:left;
+    height: auto;
+    margin: 0 10px 10px 0;
+		border:10px solid #E1CEA6;
+}
+#header {
+    background-image:url(../images/header-bg.jpg);
+	background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
+	background-repeat:repeat;
+	background-color:#2A6095;
+	min-height:119px;
+}
+
+#header h1 {
+	padding:51px 0 0 10px;
+}
+
+#header h1 a {
+	color:#FFF;
+	font-size:25px;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+    /*font-family: "Snell Roundhand", cursive;*/
+}
+
+.menu {
+    height: 83px;
+    padding: 0;
+    width: 100%;
+	margin-top:33px;
+}
+.menu li {float:left;position:relative;margin-right:2px}
+.menu li.last {margin:0}
+.menu li a {display:block;position:relative;font-size:17px;line-height:1.23em;padding:15px 0 17px 0;color:#fff;text-align:center;text-transform:none;letter-spacing:0px;width:115px;}
+.menu li.active a, .menu li a:hover {background-position:left bottom}
+.menu li.active a, .menu li a:hover {color:#AAA;padding:15px 0 27px 0}
+.menu li.active strong, .menu li:hover strong {display:block}
+
+#col1 {
+}
+
+#col2 {
+	
+}
+#home-bottom {
+	background-image:url(../images/vert-line.gif);
+	background-repeat: repeat-y;
+	background-position: 460px 0px;
+	margin-bottom:20px;
+}
+
+#footer-inner {
+	margin-top:10px;
+	font-size:10px;
+	
+}
+
+#footer-inner p {
+		text-align:center;
+		color:#EEE4CE;
+}
+
+#footer-inner a {
+	color:#EEE4CE;
+	text-decoration:none;
+}
+
+#footer-inner a:hover {
+	text-decoration:underline;
+}
+
+#coin-slider {
+    
+	border:10px solid #E1CEA6;
+}
+
+ul{
+    list-style-type: circle;
+   padding-left: 18px;
+   margin:10px;
+}

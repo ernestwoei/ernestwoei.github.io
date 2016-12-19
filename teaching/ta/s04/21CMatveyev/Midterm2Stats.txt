@@ -1,0 +1,9 @@
+		Average 	Median	Low	High	Count
+Section 1 	92.459459459	93	30	150	37
+Section 2 	94.923076923	91	55	148	13
+Section 3 	90.45		91.5	30	153	20
+Section 4 	91.782608696	94	35	160	23
+Section 5 	107.833333333	113.5	69	135	6
+					
+Class	Average		Median	High	Low	Count
+	93.151515152	93	160	30	99

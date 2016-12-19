@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Outline</title>
+		<link rel="stylesheet" href="/~woei/inall/style.css" type="text/css">
+	</head>
+	<body>
+		<h4>This is sort of an outline of each section, you can skip to any section you want if you are already comfortable with it.</h4>
+		<h3>3.5 - Derivatives of the trigonometric functions</h3>
+		<ul>
+			<li><b>KNOW</b> the DERIVATIVES of SINE and COSINE</li>
+			<p>Why?  If you know these two, then you can derive the derivatives of the rest of the trigonometric functions as long as you know what the trigonometric function is equivalent to and the quotient rule, for example sec(x) = 1/cos(x).
+		</ul>
+		<h3>3.6 - The derivative of a composite function</h3>
+		<ul>
+			<li><b>KNOW</b> how to apply the CHAIN RULE</li>
+			<p>A general technique that you can think of is as follows:
+			<p>Take the derivative of that function with whatever is enclosed inside of it.
+			<ul>
+				<li>
+				f(x) = sin(x&#178;), then f ' (x) = cos(x&#178;) * (derivative of the inside, i.e. x&#178;), thus f ' (x) = cos(x&#178;)*(2x).
+				</li>
+			</ul>
+			<p>A harder example:
+			<ul>
+				<li>
+				f(x) = sin(x*cos(x) + sin(x&#178;)), so f ' (x) = cos(x*cos(x) + sin(x&#178;)) * (derivative of the inside, i.e. x*cos(x) + sin(x&#178;)), to do the derivative of the inside you must use SUM RULE for x*cos(x) + sin(x&#178;) and PRODUCT RULE on x*cos(x).  So (x*cos(x) + sin(x&#178;))' = (x*cos(x))' + (sin(x&#178;))' = (cos(x) - x*sin(x)) + cos(x&#178;)*2x).  Therefore f ' (x) = cos(x*cos(x) + sin(x&#178;)) * (cos(x) - x*sin(x)) + cos(x&#178;)*2x).
+				</li>
+			</ul>
+		</ul>
+		<h3>4.1 - Three Theorems about the derivative</h3>
+		<ul>
+			<p>The word of wisdom for the day is <b>KNOW</b> the DEFINITIONS and THEOREM.  Since there are 3 NAMED theorems, i.e.
+			<li>Interior Extremum Theorem</li>
+			<li>Rolle's Theorem</li>
+			<li>Mean Value Theorem</li>
+			<p>You can use these theorems to PROVE or DISPROVE something, just make sure that you SATISFY the conditions of the theorem, i.e. the IF part.  In my experience, I found that knowing these theorems could make a difference in solving a problem quick.  So if I could stress this again, know them and try to understand them.
+		</ul>
+		<h3>4.2 - The first derivative and graphing</h3>
+		<ul>
+			<p>The main part of this section is the CRITICAL POINT, this helps you determine where the slope is 0 at the point.  So take f ' (x) and set it equal to 0, i.e. f ' (x) = 0.  A case where you could tell the function is increasing certainly is when you have two critical points (I forgot to mention a critical could also mean f ' (x) is undefined), i.e. c1 and c2, c1 not equal to c2, and assume c2 &#62; c1, therefore we can form an open interval (c1, c2) where we can take a point inside this interval, say 'd', and we can compute f ' (d), so if f ' (d) &#62; 0, then f is increasing if f ' (d) &#60; 0 then we know f is decreasing.
+			<p>Another useful thing about the first derivative, is that if you have a closed interval [a, b], and f is differentiable in (a,b) then you can find a maximum value (or minimum value), by finding where f ' (x) = 0 in (a,b) and taking the max of all f(x) where f ' (x) = 0 in (a,b) and f(a) and f(b), i.e. max{ f(x) such that f ' (x) = 0, f(a), f(b)}.
+		</ul>
+		<h3>4.3 - Motion and the second derivative</h3>
+		<ul>
+			<li><b>KNOW</b> the formula on page 189 in your calculus book and what each part means, i.e. a0, v0, y0.</li>
+		</ul>
+		<h3>4.5 - The second derivative and graphing</h3>
+		<ul>
+			<p>Main concepts:
+			<p>You MUST have an OPEN interval, i.e. (a,b).
+			<li>Concave upward - f ' (x) is increasing &#60;&#61;&#62; f '' (x) &#62; 0</li>
+			<li>Concave downward - f ' (x) is decreasing &#60;&#61;&#62; f '' (x) &#60; 0</li>
+			<li>Inflection point - Where f '' (x) = 0 </li>
+		</ul>
+		<h3>4.6 - Applied maximum and minimum problems</h3>
+		<ul>
+			<p>Here is an excerpt from the book, which gives you a general approach in solving these types of problems.
+			<li>1. MAKE SURE the problem is asking to you to find a MAXIMUM or MINIMUM</li>
+			<li>2. Experiment with the problem with SIMPLE/SMALL CASES</li>
+			<li>3. Devise a FORMULA for the FUNCTION whose maximum or minimum you want to find.</li>
+			<li>4. Determine the DOMAIN of the function (inputs that make sense).</li>
+			<li>5. Find the maximum or minimum of function, i.e. taking the derivative and setting it equal to 0, also make sure that whatever satisfy this is in the domain.
+			<p>Here are some things I noticed that appeared many times, SIMILAR TRIANGLES, PYTHAGOREAN THEOREM, and SINE of an ANGLE.  In addition to this know the formulas for say the surface area of a cylinder, etc.
+		</ul>
+		<h3>4.8 - Implicit Differentiation</h3>
+		<ul>
+			<p>Note 'y' is a function of x, i.e. y(x).  So when you differentiate y with respect to x, you get dy/dx.
+			<li>Try many implicit differentiation problems.</li>
+		</ul>
+		<h3>4.9 - The differential and linearization</h3>
+		<ul>
+			<li>KNOW and UNDERSTAND the definition on page 228.</li>
+			<ul>
+				<li>You can estimate say sin(89&#176;).</li>
+				<li>You can estimate relative error.</li>
+			</ul>
+		</ul>
+		<h3>4.4 - Related Rates</h3>
+		<ul>
+			<p>In these problems you are usually differentiating with respect to time.  Though I can't say anymore about these types of problem, the book proposes a good approach of solving these types of problems.
+			<li>PAGE 192 of your Calculus Book</li>
+		</ul>
+		<p>I hope this outline has helped.  The night before the midterm make sure you have a good dinner and enough rest, and good luck to all.
+		<p><i>Last modified: November 23, 2003 at 1:01AM.</i>
+	</body>
+</html>

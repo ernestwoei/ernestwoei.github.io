@@ -28,11 +28,225 @@
             });
         });
     </script>
-    <!--[if lt IE 7]>
-		<div style=' clear: both; text-align:center; position: relative;'>
-			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
-		</div>
-	<![endif]-->
+
+    <script type="text/x-mathjax-config;executed=true">
+        MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}, TeX: { Macros:{ R: "{\\mathbb{R}}", C: "{\\mathbb{C}}", D: "{\\mathbb{D}}", mC: "{\\mathbb{C}}", mD: "{\\mathbb{D}}", norm: ["{\\| #1\\|}",1], abs: ["{\\vert #1\\vert}",1]}} });
+    </script>
+    <script type="text/javascript" src="js/MathJax.js">
+    </script>
+
+    <script type="text/javascript">
+        <!--
+        var arxiv_authorid = "woei";
+        var arxiv_format = "arxiv";
+        var arxiv_max_entries = 0;
+        var arxiv_includeSummary = 1;
+        var arxiv_includeComments = 1;
+        var arxiv_includeSubjects = 1;
+        var arxiv_includeJournalRef = 1;
+        var arxiv_includeDOI = 1;
+        //-->
+    </script>
+    <script type="text/javascript" src="js/myarticles.js"></script>
+    <script type="text/javascript" src="js/woei.js"></script>
+    <style type="text/css">
+        #MathJax_Zoom {
+            position: absolute;
+            background-color: #F0F0F0;
+            overflow: auto;
+            display: block;
+            z-index: 301;
+            padding: .5em;
+            border: 1px solid black;
+            margin: 0;
+            font-family: serif;
+            font-size: 85%;
+            font-weight: normal;
+            font-style: normal;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            box-shadow: 5px 5px 15px #AAAAAA;
+            -webkit-box-shadow: 5px 5px 15px #AAAAAA;
+            -moz-box-shadow: 5px 5px 15px #AAAAAA;
+            -khtml-box-shadow: 5px 5px 15px #AAAAAA;
+            filter: progid: DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+        
+        #MathJax_ZoomOverlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 300;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_About {
+            position: fixed;
+            left: 50%;
+            width: auto;
+            text-align: center;
+            border: 3px outset;
+            padding: 1em 2em;
+            background-color: #DDDDDD;
+            color: black;
+            cursor: default;
+            font-family: message-box;
+            font-size: 120%;
+            font-style: normal;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -khtml-border-radius: 15px;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid: DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+        
+        .MathJax_Menu {
+            position: absolute;
+            background-color: white;
+            color: black;
+            width: auto;
+            padding: 5px 0px;
+            border: 1px solid #CCCCCC;
+            margin: 0;
+            cursor: default;
+            font: menu;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid: DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+        
+        .MathJax_MenuItem {
+            padding: 1px 2em;
+            background: transparent
+        }
+        
+        .MathJax_MenuTitle {
+            background-color: #CCCCCC;
+            margin: -5px 0 0 0;
+            text-align: center;
+            font-style: italic;
+            font-size: 80%;
+            color: #444444;
+            padding: 2px 0;
+            overflow: hidden
+        }
+        
+        .MathJax_MenuArrow {
+            position: absolute;
+            right: .5em;
+            color: #666666
+        }
+        
+        .MathJax_MenuActive .MathJax_MenuArrow {
+            color: white
+        }
+        
+        .MathJax_MenuCheck {
+            position: absolute;
+            left: .7em
+        }
+        
+        .MathJax_MenuRadioCheck {
+            position: absolute;
+            left: .7em
+        }
+        
+        .MathJax_MenuLabel {
+            padding: 1px 2em 3px 1.33em;
+            font-style: italic
+        }
+        
+        .MathJax_MenuRule {
+            border-top: 1px solid #DDDDDD;
+            margin: 4px 3px
+        }
+        
+        .MathJax_MenuDisabled {
+            color: GrayText
+        }
+        
+        .MathJax_MenuActive {
+            background-color: #606872;
+            color: white
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_Message {
+            position: fixed;
+            left: 1px;
+            bottom: 2px;
+            background-color: #E6E6E6;
+            border: 1px solid #959595;
+            margin: 0px;
+            padding: 2px 8px;
+            z-index: 102;
+            color: black;
+            font-size: 80%;
+            width: auto;
+            white-space: nowrap
+        }
+        
+        #MathJax_MSIE_Frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0px;
+            z-index: 101;
+            border: 0px;
+            margin: 0px;
+            padding: 0px
+        }
+        
+        .MathJax_Error {
+            color: #CC0000;
+            font-style: italic
+        }
+    </style>
     <script>
         (function n() {
             ! function() {
@@ -259,6 +473,7 @@
 </head>
 
 <body>
+    <div id="MathJax_Message" style="display: none;"></div>
     <div id="wrapper" class="container_12">
         <div id="header" class="container_12">
             <div class="grid_4">
@@ -268,8 +483,8 @@
             <div class="grid_8">
                 <div id="nav">
                     <ul class="menu">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="research.html">Research</a></li>
                         <li><a href="teaching.html">Teaching</a></li>
                         <li><a href="vita.html">Short Vita</a></li>
                     </ul>
@@ -283,87 +498,44 @@
         <!-- end header -->
 
 
-        <div id="content" class="container_12">
-            <div id="home-top" class="grid_12">
+        <div class="container_12">
 
-                <tab>
-                    <table width="600">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <p align="left">
-                                        <img src="images/cartoon-me.jpg" style="height:228px;"><br> Image credit: Carlen Tam
-                                    </p>
-                                </td>
-                                <td>
-                                    <p>
-                                    </p>
-                                    <dl>
-                                        <dt> <b>Office:</b> </dt>
-                                        <dd> 209</dd>
-
-                                        <dt> <b>Address:</b> </dt>
-                                        <dd> Trendage<br> 2075 De La Cruz Blvd<br> Santa Clara, CA 95050</dd>
-                                    </dl>
-                                    <p></p>
-                                </td>
+            <p>
+                My <a href="https://arxiv.org/find/all/1/all:+AND+ernest+woei/0/1/0/all/0/1" target="_blank">arXiv page</a>, <a href="https://scholar.google.com/scholar?q=ernest+woei&btnG=&hl=en&as_sdt=0%2C5" target="_blank">Google Scholar page</a>, and <a href="http://www.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=ernest+woei&co4=AND&pg5=TI&s5=&co5=AND&pg6=PC&s6=&co6=AND&pg7=ALLF&s7=&co7=AND&dr=all&yrop=eq&arg3=&yearRangeFirst=&yearRangeSecond=&pg8=ET&s8=All&review_format=html&Submit=Search" target="_blank">MathSciNet author page</a> (subscription required).
+            </p>
 
 
-                            </tr>
-                        </tbody>
-                    </table>
+            <h3>Publications</h3>
+            <p>(available on <a href="https://arxiv.org/find/all/1/all:+AND+ernest+woei/0/1/0/all/0/1" target="_blank">my arXiv page</a>)
+            </p>
 
-                    <hr>
+            <!-- <div id="arxivfeed">Loading my articles from arXiv...</div> -->
 
-                </tab>
-            </div>
-            <!-- end home-top -->
-            <div id="home-bottom" class="grid_12">
-                <div id="col1" class="grid_6 alpha">
-                    <h3>Upcoming Activities</h3>
-                    <p>
-                    </p>
-                    <ul>
-                        <li><a href="index.html" target="_blank">Waiting to be determined</a>.<br>
-                    </ul>
-                    <p></p>
+            <ul>
+                <li> Tree simplification and the 'plateaux' phenomenon of graph Laplacian eigenvalues (with <a href="https://www.math.ucdavis.edu/~saito" target="_blank">N Saito</a>). <a href="https://www.math.ucdavis.edu/~saito/publications/treesimp.html" target="new">Linear Algebra and its Applications, vol.481, pp.263-279, 2015</a>.
+                </li>
 
-                </div>
-                <!-- end col1 -->
+                <li>Mysteries around graph Laplacian eigenvalue 4 (with <a href="http://www.opt.mist.i.u-tokyo.ac.jp/~nakatsukasa/" target="_blank">Y. Nakatsukasa</a> and <a href="https://www.math.ucdavis.edu/~saito" target="_blank">N. Saito</a>). <a href="https://www.math.ucdavis.edu/~saito/publications/why4.html" target="_blank"> Linear Algebra and its Applications, vol.438, no.8, pp.3231-3246, 2013</a>.</li>
 
-                <div id="col2" class="grid_6 omega">
-                    <h3>Recent Past Activities</h3>
-                    <p>
-                    </p>
-                    <ul>
-                        <li> <a href="index.html">To be added later</a>.<br>
-                        </li>
-                    </ul>
-                    <p></p>
-                </div>
-                <!-- end col2 -->
-            </div>
-            <!-- end home-bottom -->
-            <div class="clear"></div>
-        </div>
-        <!-- end content -->
+                <li>On the phase transition phenomenon of graph Laplacian eigenfunctions on trees (with <a href="https://www.math.ucdavis.edu/~saito" target="_blank">N. Saito</a>), <a href="https://www.math.ucdavis.edu/~saito/publications/phasetransglapeigtree.html" target="_blank">RIMS Kôkyûroku, vol.1743, pp.77-90, 2011</a>.
+                </li>
+                
+                <li>Analysis of neuronal dendrite patterns using eigenvalues of graph Laplacians (with <a href="https://www.math.ucdavis.edu/~saito">N. Saito</a>), <a href="https://www.math.ucdavis.edu/~saito/publications/dendrites.html" target="_blank">Japan SIAM Letters, vol.1, pp.13-16, 2009. Invited Paper</a>.</li>
+                
+                <li>Simultaneous segmentation, compression, and denoising of signals using polyharmonic local sine transform and minimum description length criterion (with <a href="https://www.math.ucdavis.edu/~saito" target="_blank">N. Saito</a>), submitted for publication, <a href="https://www.math.ucdavis.edu/~saito/publications/sscdsphlstmdl.html" target="_blank">2008.</a>
+                </li>
+                
+                <li>Simultaneous segmentation, compression, and denoising using polyharmonic local sine transform and minimum description length criterion (with <a href="https://www.math.ucdavis.edu/~saito" target="_blank">N. Saito</a>), in <a href="https://www.math.ucdavis.edu/~saito/publications/sscdphlst.html" target="_blank">Proc. 13th IEEE Statistical Signal Processing Workshop, pp.315-320, 2005</a>.
+                </li>
+            </ul>
 
-
-
-        <div class="clear"></div>
-    </div>
-    <!-- end wrapper -->
-    <div id="footer" class="container_12">
-        <div id="footer-inner" class="grid_12">
+            <hr>
 
         </div>
-        <!-- end footer-inner -->
+
+
+
     </div>
-    <!-- end footer -->
-
-
-
-
 </body>
 <div id="abineFillElement"></div>
 
