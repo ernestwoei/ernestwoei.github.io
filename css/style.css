@@ -1,18 +1,18 @@
 body {
     
-	background-color:#2A6095;
+	/*background-color:#2A6095;*/
     background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
 	color: #525252;
     font: 13px/18px "Verdana",sans-serif;
     /*font: 13px/18px "Snell Roundhand", cursive;*/
 }
 #wrapper {
-	background-color:#EEE4CE;
+	/*background-color:#EEE4CE;*/
 	background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
 }
 
 a {
-    color: #2A6095;
+    /*color: #2A6095;*/
     outline: medium none;
     text-decoration: underline;
 }
@@ -55,10 +55,9 @@ p {
 		border:10px solid #E1CEA6;
 }
 #header {
-    background-image:url(../images/header-bg.jpg);
 	background-image: url('../images/congruent_pentagon/congruent_pentagon.png');
 	background-repeat:repeat;
-	background-color:#2A6095;
+	/*background-color:#2A6095;*/
 	min-height:119px;
 }
 
@@ -108,11 +107,11 @@ p {
 
 #footer-inner p {
 		text-align:center;
-		color:#EEE4CE;
+		/*color:#EEE4CE;*/
 }
 
 #footer-inner a {
-	color:#EEE4CE;
+	/*color:#EEE4CE;*/
 	text-decoration:none;
 }
 
@@ -122,7 +121,7 @@ p {
 
 #coin-slider {
     
-	border:10px solid #E1CEA6;
+	/*border:10px solid #E1CEA6;*/
 }
 
 ul{
